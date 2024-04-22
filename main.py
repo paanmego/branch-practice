@@ -1,3 +1,5 @@
-for _ in range(6): 
-    if i % 2 == 0: 
-        print("안녕하세요")
+for i in range(1, 16): 
+    if i % 3 == 0:
+        print("fizz")
+    else:
+        print(f"{i}")
